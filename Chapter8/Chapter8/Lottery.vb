@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Lottery
 
     Private Sub btnGenerate_Click(sender As Object, e As EventArgs) Handles btnGenerate.Click
         Const intMAX_SUBSCRIPT As Integer = 4
