@@ -26,6 +26,7 @@ Partial Class Menu
         Me.btnLottery = New System.Windows.Forms.Button()
         Me.btnFriends = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.btnFriends2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -64,11 +65,21 @@ Partial Class Menu
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'btnFriends2
+        '
+        Me.btnFriends2.Location = New System.Drawing.Point(92, 59)
+        Me.btnFriends2.Name = "btnFriends2"
+        Me.btnFriends2.Size = New System.Drawing.Size(74, 41)
+        Me.btnFriends2.TabIndex = 4
+        Me.btnFriends2.Text = "Friends 2"
+        Me.btnFriends2.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Controls.Add(Me.btnFriends2)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnFriends)
         Me.Controls.Add(Me.btnLottery)
@@ -82,4 +93,5 @@ Partial Class Menu
     Friend WithEvents btnLottery As System.Windows.Forms.Button
     Friend WithEvents btnFriends As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents btnFriends2 As System.Windows.Forms.Button
 End Class

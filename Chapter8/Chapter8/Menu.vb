@@ -19,4 +19,8 @@
         Box.Show()
     End Sub
 
+    Private Sub btnFriends2_Click(sender As Object, e As EventArgs) Handles btnFriends2.Click
+        Dim Box = New FriendsListTwo
+        Box.Show()
+    End Sub
 End Class
