@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FriendsList.Designer.vb">
+      <DependentUpon>FriendsList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FriendsList.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Lottery.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +114,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Lottery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriendsList.resx">
+      <DependentUpon>FriendsList.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
